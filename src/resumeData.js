@@ -1,7 +1,7 @@
 let resumeData = {
     "imagebaseurl":"https://rbhatia46.github.io/",
-    "name": "Nishant Kumar Jha",
-    "role": "Frontend Web/Software Developer",
+    "name": "Nishant Jha",
+    "role": "Web Developer",
     "linkedinId":"https://www.linkedin.com/in/nkjnishant/",
     "skypeid": "Your skypeid",
     "roleDescription": "I like building applications, reading and writing technical articles or simply playing games, singing and vibing in my free time.",
@@ -22,7 +22,7 @@ let resumeData = {
           "className":"fa fa-stack-overflow"
         }
       ],
-    "aboutme":"Having done my graduation in B.Tech (Information technology) from Gautam Buddha University in 2022, I am currently working as an SDE - 1 (Frontend) at Micro Focus. I am a self taught Web Developer, currently learning backend web development using flask, looking forward to become a full stack web developer. I believe that to be successful in life, one needs to be obsessive with their dreams and keep working towards them. A \'learning-by-doing\' methodology is what drives me.",
+    "aboutme":"Having done my graduation in B.Tech (Information technology) from Gautam Buddha University in 2022, I am currently working as an SDE - 1 at Micro Focus. I am a self taught Web Developer, and have learned backend web development using NodeJS and ExpressJS recently, thus looking forward to become a full stack web developer. I believe that to be successful in life, one needs to be obsessive with their dreams and keep working towards them. A \'learning-by-doing\' methodology is what drives me.",
     "address":"Greater Noida, India",
     "website":"https://nkj-c4.github.io",
     "education":[
