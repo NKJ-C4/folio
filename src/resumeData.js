@@ -1,10 +1,10 @@
 let resumeData = {
     "imagebaseurl":"https://rbhatia46.github.io/",
     "name": "Nishant Kumar Jha",
-    "role": "Frontend Developer and an IT Engineer",
-    "linkedinId":"Your LinkedIn Id",
+    "role": "Frontend Web/Software Developer",
+    "linkedinId":"https://www.linkedin.com/in/nkjnishant/",
     "skypeid": "Your skypeid",
-    "roleDescription": "I like to explore frontend development, learn about new technologies, write technical articles or simply play games and vibe to music in my free time.",
+    "roleDescription": "I like building applications, reading and writing technical articles or simply playing games, singing and vibing in my free time.",
     "socialLinks":[
         {
           "name":"linkedin",
@@ -13,13 +13,13 @@ let resumeData = {
         },
         {
           "name":"github",
-          "url":"http://github.com/rbhatia46",
+          "url":"http://github.com/nkj-c4",
           "className":"fa fa-github"
         },
         {
-          "name":"instagram",
-          "url":"https://www.instagram.com/nkjnishant/",
-          "className":"fa fa-instagram"
+          "name":"stack-overflow",
+          "url":"https://stackoverflow.com/users/15107688/nishant-jha?tab=profile",
+          "className":"fa fa-stack-overflow"
         }
       ],
     "aboutme":"Having done my graduation in B.Tech (Information technology) from Gautam Buddha University in 2022, I am currently working as an SDE - 1 (Frontend) at Micro Focus. I am a self taught Web Developer, currently learning backend web development using flask, looking forward to become a full stack web developer. I believe that to be successful in life, one needs to be obsessive with their dreams and keep working towards them. A \'learning-by-doing\' methodology is what drives me.",
@@ -32,6 +32,20 @@ let resumeData = {
         "MonthOfPassing":"Aug",
         "YearOfPassing":"2022",
         "Achievements":"Secured 8.1 CGPA"
+      },
+      {
+        "UniversityName":"Ursuline Convent Sr. Sec. School",
+        "specialization":"12th - Science (PCM)",
+        "MonthOfPassing":"June",
+        "YearOfPassing":"2018",
+        "Achievements":"61%"
+      },
+      {
+        "UniversityName":"Ursuline Convent Sr. Sec. School",
+        "specialization":"10th standard",
+        "MonthOfPassing":"June",
+        "YearOfPassing":"2016",
+        "Achievements":"Secured 8.4 CGPA"
       }
     ],
     "work":[
@@ -54,50 +68,63 @@ let resumeData = {
         "Achievements":"Developed responsive UI using React JS. Developed finance app Aarogya Pay and a user dashboard for Aarogya Pay which included several graphs, implemented using Recharts library."
       }
     ],
-    "skillsDescription":"Your skills here",
     "skills":[
       {
-        "skillname":"HTML5"
+        "skillname":"HTML5 and CSSS"
       },
       {
-        "skillname":"CSS"
+        "skillname":"JavaScript"
       },
       {
         "skillname":"Reactjs"
-      }
+      },
+      {
+        "skillname":"Redux"
+      },
+      {
+        "skillname":"NodeJS and ExpressJS"
+      },
+      {
+        "skillname":"Databases (MySQL, PostgreSQL, MongoDB)"
+      },
     ],
     "portfolio":[
       {
-        "name":"project1",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/phone.jpg"
+        "name":"Visageer",
+        "description":"Face detection app built using Node, Express, React and PostgreSQL",
+        "imgurl":"images/portfolio/visageer.jpg",
+        "repo":"https://github.com/NKJ-C4/visageer",
+        "url": "https://visageer.onrender.com/"
       },
       {
-        "name":"project2",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/project.jpg"
+        "name":"Cardio-Fit",
+        "description":"ML based we app for predicting heart diseases",
+        "imgurl":"images/portfolio/cardio-fit.jpg",
+        "repo":"https://github.com/NKJ-C4/visageer",
+        "url": "https://cardio-fit.onrender.com/"
       },
       {
-        "name":"project3",
-        "description":"mobileapp",  
-        "imgurl":"images/portfolio/project2.png"
+        "name":"Drumzy",
+        "description":"A simple drum simulator that uses event listeners to play drums",  
+        "imgurl":"images/portfolio/drumzy.jpg",
+        "repo":"https://github.com/NKJ-C4/visageer",
+        "url": "https://nkj-c4.github.io/Drumzy/"
       },
       {
-        "name":"project4",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/phone.jpg"
+        "name":"Travlee",
+        "description":"A landing page built using vanilla HTML, CSS and JS for a travelling app",
+        "imgurl":"images/portfolio/travel.jpg",
+        "repo":"https://github.com/NKJ-C4/visageer",
+        "url": "https://boilerplate4travel.vercel.app/"
+      },
+      {
+        "name":"Fascicosta",
+        "description":"A landing page built using React JS and deployed over vercel",
+        "imgurl":"images/portfolio/landing.jpg",
+        "repo":"https://github.com/NKJ-C4/visageer",
+        "url": "https://nkj-c4.github.io/react_template"
       }
     ],
-    "testimonials":[
-      {
-        "description":"This is a sample testimonial",
-        "name":"Some technical guy"
-      },
-      {
-        "description":"This is a sample testimonial",
-        "name":"Some technical guy"
-      }
-    ]
   }
   
   export default resumeData
