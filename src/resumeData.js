@@ -91,14 +91,14 @@ let resumeData = {
     "portfolio":[
       {
         "name":"Visageer",
-        "description":"Face detection app built using Node, Express, React and PostgreSQL",
+        "description":" A full stack Face detection app built using Node, Express, React and PostgreSQL",
         "imgurl":"images/portfolio/visageer.jpg",
         "repo":"https://github.com/NKJ-C4/visageer",
         "url": "https://visageer.onrender.com/"
       },
       {
         "name":"Cardio-Fit",
-        "description":"ML based we app for predicting heart diseases",
+        "description":"ML based web app for predicting heart diseases. Built using flask.",
         "imgurl":"images/portfolio/cardio-fit.jpg",
         "repo":"https://github.com/NKJ-C4/visageer",
         "url": "https://cardio-fit.onrender.com/"
