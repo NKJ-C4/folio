@@ -24,8 +24,8 @@ export default class Porfolio extends Component {
                     </div>
                   </div>
                   <div className='project-link-wrap'>
-                    <a href={item.url} target='_blank'><i class="fa fa-external-link" aria-hidden="true"></i></a>
-                    <a href={item.repo} target='_blank'><i class="fa fa-github" aria-hidden="true"></i></a>
+                    <a href={item.url} target='_blank'><i style={{transform: "scale(1.2)"}} class="fa fa-external-link" aria-hidden="true"></i></a>
+                    <a href={item.repo} target='_blank'><i style={{transform: "scale(1.3)"}}class="fa fa-github" aria-hidden="true"></i></a>
                   </div>
                 </div>
               )

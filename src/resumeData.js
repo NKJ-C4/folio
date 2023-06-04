@@ -109,28 +109,28 @@ let resumeData = {
         "name":"Cardio-Fit",
         "description":"ML based web app for predicting heart diseases. Built using flask.",
         "imgurl":"images/portfolio/cardio-fit.jpg",
-        "repo":"https://github.com/NKJ-C4/visageer",
+        "repo":"https://github.com/NKJ-C4/Heart-Disease-Web-App",
         "url": "https://cardio-fit.onrender.com/"
       },
       {
         "name":"Drumzy",
         "description":"A simple drum simulator, uses JS to play drums",  
         "imgurl":"images/portfolio/drumzy.jpg",
-        "repo":"https://github.com/NKJ-C4/visageer",
+        "repo":"https://github.com/NKJ-C4/Drumzy",
         "url": "https://nkj-c4.github.io/Drumzy/"
       },
       {
         "name":"Travlee",
         "description":"A landing page built for a travelling app",
         "imgurl":"images/portfolio/travel.jpg",
-        "repo":"https://github.com/NKJ-C4/visageer",
+        "repo":"https://github.com/NKJ-C4/boilerplate4travel",
         "url": "https://boilerplate4travel.vercel.app/"
       },
       {
         "name":"Fascicosta",
         "description":"A landing page built using React JS",
         "imgurl":"images/portfolio/landing.jpg",
-        "repo":"https://github.com/NKJ-C4/visageer",
+        "repo":"https://github.com/NKJ-C4/react_template",
         "url": "https://nkj-c4.github.io/react_template"
       }
     ],
