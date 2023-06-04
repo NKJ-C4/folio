@@ -88,7 +88,17 @@ export default  class Resume extends Component {
 
    			</div>
 
-         </div>
+        </div>
+         <div className="row skill">
+          <div className="three columns header-col">
+            <h1><span>Download</span></h1>
+          </div>
+          <div className="nine columns main-col resume-link">
+            <div className="bars">
+              <a href={resumeData.resumeLink} target="_blank">Click here to view or download my full resume</a>
+            </div>
+   			  </div>
+        </div>
 
       </section>
     );

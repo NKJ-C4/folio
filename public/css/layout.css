@@ -270,6 +270,9 @@ ul#nav li.current a { color: #F06000; }
 
 #resume .header-col { padding-top: 9px; }
 #resume .main-col { padding-right: 10%; }
+#resume .main-col.resume-link{
+   padding-top: 9px;
+}
 
 .education, .work {
    margin-bottom: 48px;
@@ -460,6 +463,10 @@ ul#nav li.current a { color: #F06000; }
 }
 
 /* Portfolio Content */
+#portfolio-wrapper{
+   display: flex;
+   justify-content: center;
+}
 #portfolio-wrapper .columns { margin-bottom: 36px; }
 .portfolio-item .item-wrap {
    background: #fff;
@@ -523,7 +530,10 @@ ul#nav li.current a { color: #F06000; }
 .portfolio-item .item-wrap img {
    vertical-align: bottom;
 }
-.portfolio-item .portfolio-item-meta { padding: 18px }
+.portfolio-item .portfolio-item-meta { 
+   padding: 18px;
+   height: 100%;
+}
 .portfolio-item .portfolio-item-meta h5 {
    font: 14px/21px 'opensans-bold', sans-serif;
    color: #fff;
@@ -592,7 +602,7 @@ ul#nav li.current a { color: #F06000; }
 
 /* Links for projects */
 .project-link-wrap{
-   margin: 0 80px;
+   margin: 0 60px;
    display: flex;
    justify-content: space-between;
    text-align: center;

@@ -3,7 +3,7 @@ let resumeData = {
     "name": "Nishant Jha",
     "role": "Web Developer",
     "linkedinId":"https://www.linkedin.com/in/nkjnishant/",
-    "skypeid": "Your skypeid",
+    "resumeLink": "https://drive.google.com/file/d/1HgwBsl1EnmAxhxFseZT3Qm5sNaAejtXA/view?usp=drive_link",
     "roleDescription": "I like building applications, reading and writing technical articles or simply playing games, singing and vibing in my free time.",
     "socialLinks":[
         {
@@ -24,28 +24,28 @@ let resumeData = {
       ],
     "aboutme":"Having done my graduation in B.Tech (Information technology) from Gautam Buddha University in 2022, I am currently working as an SDE - 1 at Micro Focus. I am a self taught Web Developer, and have learned backend web development using NodeJS and ExpressJS recently, thus looking forward to become a full stack web developer. I believe that to be successful in life, one needs to be obsessive with their dreams and keep working towards them. A \'learning-by-doing\' methodology is what drives me.",
     "address":"Greater Noida, India",
-    "website":"https://nkj-c4.github.io",
+    "website":"",
     "education":[
       {
         "UniversityName":"Gautam Buddha University, School of ICT",
         "specialization":"Information Technology",
         "MonthOfPassing":"Aug",
         "YearOfPassing":"2022",
-        "Achievements":"Secured 8.1 CGPA"
+        "Achievements":"Scored 8.1 CGPA"
       },
       {
         "UniversityName":"Ursuline Convent Sr. Sec. School",
         "specialization":"12th - Science (PCM)",
         "MonthOfPassing":"June",
         "YearOfPassing":"2018",
-        "Achievements":"61%"
+        "Achievements":""
       },
       {
         "UniversityName":"Ursuline Convent Sr. Sec. School",
         "specialization":"10th standard",
         "MonthOfPassing":"June",
         "YearOfPassing":"2016",
-        "Achievements":"Secured 8.4 CGPA"
+        "Achievements":"Scored 8.4 CGPA"
       }
     ],
     "work":[
@@ -105,21 +105,21 @@ let resumeData = {
       },
       {
         "name":"Drumzy",
-        "description":"A simple drum simulator that uses event listeners to play drums",  
+        "description":"A simple drum simulator, uses JS to play drums",  
         "imgurl":"images/portfolio/drumzy.jpg",
         "repo":"https://github.com/NKJ-C4/visageer",
         "url": "https://nkj-c4.github.io/Drumzy/"
       },
       {
         "name":"Travlee",
-        "description":"A landing page built using vanilla HTML, CSS and JS for a travelling app",
+        "description":"A landing page built for a travelling app",
         "imgurl":"images/portfolio/travel.jpg",
         "repo":"https://github.com/NKJ-C4/visageer",
         "url": "https://boilerplate4travel.vercel.app/"
       },
       {
         "name":"Fascicosta",
-        "description":"A landing page built using React JS and deployed over vercel",
+        "description":"A landing page built using React JS",
         "imgurl":"images/portfolio/landing.jpg",
         "repo":"https://github.com/NKJ-C4/visageer",
         "url": "https://nkj-c4.github.io/react_template"
