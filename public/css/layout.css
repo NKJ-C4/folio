@@ -64,7 +64,7 @@ header .banner-text h1 {
    margin: 0 auto 18px auto;
    text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
    transition: 0.7s;
-   -webkit-text-stroke: 1px solid black;
+   -webkit-text-stroke: 1px black;
 }
 
 header .banner-text h3 {
