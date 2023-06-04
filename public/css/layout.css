@@ -466,6 +466,10 @@ ul#nav li.current a { color: #F06000; }
 #portfolio-wrapper{
    display: flex;
    justify-content: center;
+   flex-wrap: wrap;
+}
+.columns.portfolio-item {
+   width: 30%;
 }
 #portfolio-wrapper .columns { margin-bottom: 36px; }
 .portfolio-item .item-wrap {
@@ -602,7 +606,7 @@ ul#nav li.current a { color: #F06000; }
 
 /* Links for projects */
 .project-link-wrap{
-   margin: 0 60px;
+   margin: 0 105px;
    display: flex;
    justify-content: space-between;
    text-align: center;
