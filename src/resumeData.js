@@ -38,7 +38,7 @@ let resumeData = {
         "specialization":"12th - Science (PCM)",
         "MonthOfPassing":"June",
         "YearOfPassing":"2018",
-        "Achievements":""
+        "Achievements":"Passed with B2 grade"
       },
       {
         "UniversityName":"Ursuline Convent Sr. Sec. School",
@@ -51,12 +51,12 @@ let resumeData = {
     "work":[
       {
         "CompanyName":"Micro Focus",
-        "specialization":"Software Engineer (Frontend)",
+        "specialization":"SDE 1 (Frontend developer)",
         "MonthOfJoining": "Oct",
         "YearOfJoining": "2022",
         "MonthOfLeaving": "Present",
         "YearOfLeaving": "",
-        "Achievements": "Working on a project based on a platform for Big data and Machine Learning - Vertica Accelerator. Collaborating with a huge team of developers. Implementing SAFe framework in development process."
+        "Achievements": "Worked on Products - Vertica Accelerator and Vertica Management Console. Worked on code migration from JSP to React. Implemented error handling scenarios in the product. Collaborated with a large team consisting of developers, testing engineers and DevOps Engineers, along with a scrum master and a Product Manager. Learned deployments over AWS Cloudformation, Amazon EC2, Azure and GCP cloud platforms. Learned how to write AIO test cases for a Jira ticket, implemented good programming conventions like writing unit test cases before pushing the code to master branch, ran pipelines over Bitbucket for refreshing the development jumphost. Ran Jenkins pipeline for generating builds like RPM files, which were later on provided to a QA engineer for testing. Suggested UI changes to the Product manager and implemented them in the product. Created reusable components like dropdowns, tables with pagination, Modals etc in React to be used in two different products."
       },
       {
         "CompanyName":"Navia Life Care",
@@ -65,7 +65,16 @@ let resumeData = {
         "YearOfJoining": "2022",
         "MonthOfLeaving":"September",
         "YearOfLeaving":"2022",
-        "Achievements":"Developed responsive UI using React JS. Developed finance app Aarogya Pay and a user dashboard for Aarogya Pay which included several graphs, implemented using Recharts library."
+        "Achievements": "Worked on a React based web dashboard app (main product) \“NaviaSmart\”. Implemented interactive UI using React JS for the company\'s clients (Doctors and Patients). Learned about Amazon chime SDK and worked on a doctor-patient video appointment app. Implemented Amplitude event tracking throughout the web app. Integrated Amplitude Analytics to keep track of events. Implemented Redux according to legacy code. Developed a (that time a new one) project, \"Aarogya Pay\" - a fintech app for the company. Developed a statistics dashboard in React having multiple graphs and a large table with paginations and other optimization features. Built a statistics dashboard with graphs and tables for \"Aarogya Pay\" users. Collaborated on softwares like Jira, Confluence, GitLab and worked with tools like Postman."
+      },
+      {
+        "CompanyName":"Troislogic",
+        "specialization":"Frontend Developer (Intern)",
+        "MonthOfJoining": "Sep",
+        "YearOfJoining": "2021",
+        "MonthOfLeaving":"Jan",
+        "YearOfLeaving":"2022",
+        "Achievements": "Worked with React JS. Worked on API integrations in React. Used Postman to test API endpoints. Learned and developed android apps using React Native. Learned basic PHP for debugging backend code. Collaborated with a team of 6 developers. Got hands on experience of working with Git/Github."
       }
     ],
     "skills":[
