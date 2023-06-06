@@ -23,6 +23,7 @@ export default class Footer extends Component {
         </div>
         <div id="go-top"><a className="smoothscroll" title="Back to Top" href="#home"><i className="icon-up-open" /></a></div>
       </div>
+    <div className='footer-creds'>Built using React by <a href={resumeData.linkedinId} target='_blank'>Nishant</a></div>
     </footer>
     );
   }

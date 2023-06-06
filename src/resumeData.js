@@ -4,7 +4,7 @@ let resumeData = {
     "role": "Web Developer",
     "linkedinId":"https://www.linkedin.com/in/nkjnishant/",
     "resumeLink": "https://drive.google.com/file/d/1HgwBsl1EnmAxhxFseZT3Qm5sNaAejtXA/view?usp=drive_link",
-    "roleDescription": "I like building applications, reading and writing technical articles or simply playing games, singing and vibing in my free time.",
+    "roleDescription": "I like building applications, listening to tech podcasts, writing articles, coining app ideas or simply playing games, singing and vibing in my free time.",
     "socialLinks":[
         {
           "name":"linkedin",
