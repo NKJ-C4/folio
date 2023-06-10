@@ -25,7 +25,7 @@ export default class ContactUs extends Component {
           <div className="row section-head">
             <div className="ten columns">
               <p className="lead">
-              PS: I have many app ideas written with me, so you're most welcome if you want to collaborate.
+              PS: I have a list of app ideas with me, so you're most welcome if you want to collaborate.
               </p>
             </div>
           </div>
