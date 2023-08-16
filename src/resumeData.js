@@ -50,12 +50,21 @@ let resumeData = {
     ],
     "work":[
       {
+        "CompanyName":"Episource (now Optum)",
+        "specialization":"Associate Data Engineer",
+        "MonthOfJoining": "July",
+        "YearOfJoining": "2023",
+        "MonthOfLeaving": "Present",
+        "YearOfLeaving": "",
+        "Achievements": "Working and managing a ML based product. Managing cloud infra based on AWS - ECS, ECR, S3, Cloudwatch, etc. Backend development using Flask, Nginx and ElasticSearch. Frontend development using Vue JS. Manage a custom Microsoft Excel add-in built using office.js in vanilla JavaScript"
+      },
+      {
         "CompanyName":"Micro Focus",
         "specialization":"SDE 1 (Frontend developer)",
         "MonthOfJoining": "Oct",
         "YearOfJoining": "2022",
-        "MonthOfLeaving": "Present",
-        "YearOfLeaving": "",
+        "MonthOfLeaving": "June",
+        "YearOfLeaving": "2023",
         "Achievements": "Worked on Products - Vertica Accelerator and Vertica Management Console. Worked on code migration from JSP to React. Implemented error handling scenarios in the product. Collaborated with a large team consisting of developers, testing engineers and DevOps Engineers, along with a scrum master and a Product Manager. Learned deployments over AWS Cloudformation, Amazon EC2, Azure and GCP cloud platforms. Learned how to write AIO test cases for a Jira ticket, implemented good programming conventions like writing unit test cases before pushing the code to master branch, ran pipelines over Bitbucket for refreshing the development jumphost. Ran Jenkins pipeline for generating builds like RPM files, which were later on provided to a QA engineer for testing. Suggested UI changes to the Product manager and implemented them in the product. Created reusable components like dropdowns, tables with pagination, Modals etc in React to be used in two different products."
       },
       {
