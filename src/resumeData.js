@@ -1,9 +1,9 @@
 let resumeData = {
     "imagebaseurl":"https://rbhatia46.github.io/",
-    "name": "Nishant Jha",
-    "role": "Web Developer",
+    "name": "Nishant Kumar Jha",
+    "role": "Full Stack Developer",
     "linkedinId":"https://www.linkedin.com/in/nkjnishant/",
-    "resumeLink": "https://drive.google.com/file/d/1HgwBsl1EnmAxhxFseZT3Qm5sNaAejtXA/view?usp=drive_link",
+    "resumeLink": "https://drive.google.com/file/d/1yh7OdEXujzgrPcFXwRIoy4lMNT3G9Lwf/view?usp=sharing",
     "roleDescription": "I like building applications, listening to tech podcasts, writing articles, coining app ideas or simply playing games, singing and vibing in my free time.",
     "socialLinks":[
         {
@@ -22,8 +22,8 @@ let resumeData = {
           "className":"fa fa-stack-overflow"
         }
       ],
-    "aboutme":"Having done my graduation in B.Tech (Information technology) from Gautam Buddha University in 2022, I am currently working as an SDE - 1 at Micro Focus. I am a self taught Web Developer, and have learned backend web development using NodeJS and ExpressJS recently, thus looking forward to become a full stack web developer. I believe that to be successful in life, one needs to be obsessive with their dreams and keep working towards them. A \'learning-by-doing\' methodology is what drives me.",
-    "address":"Greater Noida, India",
+    "aboutme":"I'm a self-taught Full Stack Developer with a strong foundation in DevOps, currently working at Optum. A believer in 'learning by doing,' I’m passionate about building scalable web applications and constantly expanding my skillset to grow as a developer.",
+    "address":"Currently in Pune, Maharashtra. Previously from Greater Noida, Uttar Pradesh, India",
     "website":"",
     "education":[
       {
@@ -50,31 +50,31 @@ let resumeData = {
     ],
     "work":[
       {
-        "CompanyName":"Episource (now Optum)",
-        "specialization":"Associate Data Engineer",
+        "CompanyName":"Optum",
+        "specialization":"Full Stack and DevOps Engineer",
         "MonthOfJoining": "July",
         "YearOfJoining": "2023",
         "MonthOfLeaving": "Present",
         "YearOfLeaving": "",
-        "Achievements": "Working and managing a ML based product. Managing cloud infra based on AWS - ECS, ECR, S3, Cloudwatch, etc. Backend development using Flask, Nginx and ElasticSearch. Frontend development using Vue JS. Manage a custom Microsoft Excel add-in built using office.js in vanilla JavaScript"
+        "Achievements": "At Optum, I’ve worked as a Data Engineer contributing to both frontend and backend development of healthcare-centric applications. I built search functionalities using the ELK stack, developed UIs with Vue.js, and created APIs with Flask and ExpressJS. My role also included setting up CI/CD pipelines with GitHub Actions, managing AWS infrastructure via ECS, ECR, and DynamoDB, and employing Terraform for IaC. I emphasized security using tools like Snyk and JFrog, mentored junior developers, and architected internal tools for automated data analytics reporting, while ensuring compliance through detailed architecture documentation."
       },
       {
-        "CompanyName":"Micro Focus",
-        "specialization":"SDE 1 (Frontend developer)",
+        "CompanyName":"Micro Focus (Now OpenText)",
+        "specialization":"Systems Software Engineer - 1",
         "MonthOfJoining": "Oct",
         "YearOfJoining": "2022",
         "MonthOfLeaving": "June",
         "YearOfLeaving": "2023",
-        "Achievements": "Worked on Products - Vertica Accelerator and Vertica Management Console. Worked on code migration from JSP to React. Implemented error handling scenarios in the product. Collaborated with a large team consisting of developers, testing engineers and DevOps Engineers, along with a scrum master and a Product Manager. Learned deployments over AWS Cloudformation, Amazon EC2, Azure and GCP cloud platforms. Learned how to write AIO test cases for a Jira ticket, implemented good programming conventions like writing unit test cases before pushing the code to master branch, ran pipelines over Bitbucket for refreshing the development jumphost. Ran Jenkins pipeline for generating builds like RPM files, which were later on provided to a QA engineer for testing. Suggested UI changes to the Product manager and implemented them in the product. Created reusable components like dropdowns, tables with pagination, Modals etc in React to be used in two different products."
+        "Achievements": "Contributed to enterprise-grade products like Vertica Accelerator and Vertica Management Console by migrating legacy code from JSP to React, implementing robust error handling, and integrating APIs with reusable React components. Gained exposure to multi-cloud environments including AWS, Azure, and GCP, and utilized AWS CloudFormation for deployments. Worked with CI/CD tools like Jenkins and Bitbucket pipelines to streamline the build and deployment processes."
       },
       {
         "CompanyName":"Navia Life Care",
-        "specialization":"Frontend Developer",
+        "specialization":"Frontend Developer (Intern)",
         "MonthOfJoining": "Jan",
         "YearOfJoining": "2022",
         "MonthOfLeaving":"September",
         "YearOfLeaving":"2022",
-        "Achievements": "Worked on a React based web dashboard app (main product) \“NaviaSmart\”. Implemented interactive UI using React JS for the company\'s clients (Doctors and Patients). Learned about Amazon chime SDK and worked on a doctor-patient video appointment app. Implemented Amplitude event tracking throughout the web app. Integrated Amplitude Analytics to keep track of events. Implemented Redux according to legacy code. Developed a (that time a new one) project, \"Aarogya Pay\" - a fintech app for the company. Developed a statistics dashboard in React having multiple graphs and a large table with paginations and other optimization features. Built a statistics dashboard with graphs and tables for \"Aarogya Pay\" users. Collaborated on softwares like Jira, Confluence, GitLab and worked with tools like Postman."
+        "Achievements": "During my internship at Navia Lifecare, I contributed to the development of the company’s live product, NaviaSmart, built on React. I integrated Amplitude Analytics for event tracking and utilized Redux for state management and API handling. I played a key role in developing the UI for the finance application “Aarogya Pay” and built a comprehensive statistics dashboard featuring interactive graphs and tables. Additionally, I created reusable components such as graphs, dropdowns, modals, and tables, and collaborated using tools like Jira, Confluence, GitLab, and Postman"
       },
       {
         "CompanyName":"Troislogic",
@@ -88,23 +88,25 @@ let resumeData = {
     ],
     "skills":[
       {
-        "skillname":"HTML5 and CSSS"
+        "skillname":"Databases (MySQL, PostgreSQL, MongoDB)",
+        "className":"databases"
       },
       {
-        "skillname":"JavaScript"
+        "skillname":"Frontend (ReactJS, VueJS, VanillaJS, HTML, CSS, TailwindCSS)",
+        "className":"frontend"
       },
       {
-        "skillname":"Reactjs"
+        "skillname":"Backend (NodeJS, Python,ExpressJS, Flask, Django)",
+        "className":"backend"
       },
       {
-        "skillname":"Redux"
+        "skillname":"DevOps (AWS, Docker, Github Actions, Terraform)",
+        "className":"devops"
       },
       {
-        "skillname":"NodeJS and ExpressJS"
-      },
-      {
-        "skillname":"Databases (MySQL, PostgreSQL, MongoDB)"
-      },
+        "skillname":"Tools (Git, Github, Jira, Confluence, Postman, JFrog, Snyk)",
+        "className":"tools"
+      }
     ],
     "portfolio":[
       {
