@@ -147,20 +147,21 @@ a {
   padding-top: 180px;
   padding-bottom: 72px;
   display: grid;
-  grid-template-columns: minmax(0, 1.35fr) minmax(320px, 0.65fr);
+  grid-template-columns: minmax(0, 1.2fr) minmax(450px, 0.8fr);
   grid-template-rows: 1fr auto;
   align-items: center;
-  column-gap: 70px;
+  column-gap: 50px;
   position: relative;
 }
 
-.hero::before {
+.system-map::before {
   content: '';
   position: absolute;
-  width: 620px;
-  height: 620px;
-  top: 55px;
-  right: -250px;
+  width: 660px;
+  height: 660px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   border-radius: 50%;
   background: rgba(63, 169, 147, 0.08);
   filter: blur(4px);
@@ -256,24 +257,34 @@ a {
 }
 
 .system-map {
-  width: 390px;
-  height: 390px;
+  width: 450px;
+  height: 450px;
   justify-self: end;
 }
 
 .map-orbit {
   position: absolute;
   inset: 0;
+  z-index: 3;
   border: 1px solid rgba(199, 243, 107, 0.25);
   border-radius: 50%;
   animation: spin 18s linear infinite;
 }
 
-.map-orbit::before {
+.orbit-marker {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 0;
+  height: 0;
+  animation: spin 18s linear infinite reverse;
+}
+
+.orbit-marker::before {
   content: '';
   position: absolute;
   top: -5px;
-  left: 50%;
+  left: -5px;
   width: 11px;
   height: 11px;
   border-radius: 50%;
@@ -283,8 +294,9 @@ a {
 
 .map-orbit span {
   position: absolute;
-  top: -34px;
-  left: 52%;
+  top: 0;
+  left: 16px;
+  transform: translateY(-50%);
   padding: 5px 8px;
   border: 1px solid var(--line);
   border-radius: 999px;
@@ -295,49 +307,52 @@ a {
   letter-spacing: 0.12em;
   white-space: nowrap;
   text-transform: uppercase;
-  animation: spin 18s linear infinite reverse;
 }
 
 .orbit-two {
-  inset: 11.5%;
+  inset: 10%;
   border-style: dashed;
   animation-duration: 14s;
   animation-direction: reverse;
   animation-delay: -4s;
 }
 
-.orbit-two::before {
+.orbit-two .orbit-marker::before {
   background: var(--teal);
   box-shadow: 0 0 22px var(--teal);
 }
 
-.orbit-two span {
+.orbit-two .orbit-marker {
   animation-duration: 14s;
   animation-direction: normal;
   animation-delay: -4s;
 }
 
 .orbit-three {
-  inset: 28.7%;
+  inset: 24%;
   border-color: rgba(85, 217, 192, 0.32);
   animation-duration: 11s;
   animation-delay: -7s;
 }
 
-.orbit-three::before {
+.orbit-three .orbit-marker::before {
   background: var(--teal);
   box-shadow: 0 0 22px var(--teal);
 }
 
-.orbit-three span {
+.orbit-three .orbit-marker {
   animation-duration: 11s;
   animation-delay: -7s;
+}
+
+.orbit-three span {
+  animation: cloud-label-visibility 11s linear -7s infinite;
 }
 
 .map-center {
   position: absolute;
   inset: 33.8%;
-  z-index: 2;
+  z-index: 4;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -348,19 +363,14 @@ a {
   box-shadow: 0 0 75px rgba(199, 243, 107, 0.15);
 }
 
-.map-center b {
-  font: 700 25px 'Space Grotesk', sans-serif;
-  letter-spacing: -0.06em;
-}
-
-.map-center small {
-  max-width: 68px;
-  font-size: 9px;
-  font-weight: 700;
-  line-height: 1.25;
-  letter-spacing: 0.15em;
-  text-align: center;
-  text-transform: uppercase;
+.map-center img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: 3px solid var(--lime);
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
 }
 
 .hero-current {
@@ -862,6 +872,13 @@ a {
   to { transform: rotate(360deg); }
 }
 
+/* Match the cloud orbit's phase; fade its label along the left arc,
+   where the label would otherwise extend inward across the portrait. */
+@keyframes cloud-label-visibility {
+  0%, 57%, 93%, 100% { opacity: 1; }
+  60%, 90% { opacity: 0; }
+}
+
 @keyframes pulse {
   0% { box-shadow: 0 0 0 0 rgba(199, 243, 107, 0.25); }
   70% { box-shadow: 0 0 0 8px rgba(199, 243, 107, 0); }
@@ -876,8 +893,8 @@ a {
   }
 
   .system-map {
-    width: 330px;
-    height: 330px;
+    width: 400px;
+    height: 400px;
     margin-top: 75px;
     justify-self: center;
   }
@@ -938,7 +955,7 @@ a {
   .hero { padding-top: 130px; padding-bottom: 50px; }
   .hero h1 { font-size: clamp(55px, 16.5vw, 82px); }
   .hero-lead { font-size: 17px; }
-  .system-map { width: 280px; height: 280px; margin-top: 65px; }
+  .system-map { width: min(320px, calc(100vw - 80px)); height: auto; aspect-ratio: 1; margin-top: 65px; }
   .hero-current { grid-template-columns: 55px 1fr; gap: 15px; }
   .metrics-grid { grid-template-columns: 1fr; }
   .metric, .metric:first-child { min-height: auto; padding: 23px 0; border-right: 0; border-bottom: 1px solid var(--line); }

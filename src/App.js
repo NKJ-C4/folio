@@ -1,4 +1,9 @@
 import React, { Component } from 'react';
+
+
+
+
+
 import './App.css';
 import resumeData from './resumeData';
 
@@ -63,10 +68,12 @@ class App extends Component {
             </div>
 
             <div className="system-map" role="img" aria-label="Nishant at the center of interfaces, APIs and services, and cloud infrastructure">
-              <div className="map-orbit orbit-one"><span>Interfaces</span></div>
-              <div className="map-orbit orbit-two"><span>APIs &amp; services</span></div>
-              <div className="map-orbit orbit-three"><span>Cloud infrastructure</span></div>
-              <div className="map-center"><b>NKJ</b><small>Systems engineer</small></div>
+              <div className="map-orbit orbit-one"><div className="orbit-marker"><span>Interfaces</span></div></div>
+              <div className="map-orbit orbit-two"><div className="orbit-marker"><span>APIs &amp; services</span></div></div>
+              <div className="map-orbit orbit-three"><div className="orbit-marker"><span>Cloud Engineering</span></div></div>
+              <div className="map-center">
+                <img src="images/new_2026.jpg" alt={data.name} width="608" height="608" />
+              </div>
             </div>
 
             <div className="hero-current">
